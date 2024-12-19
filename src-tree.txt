@@ -1,0 +1,62 @@
+src
+├── app
+│   ├── chat
+│   │   └── page.tsx
+│   ├── settings
+│   │   └── page.tsx
+│   ├── users
+│   │   └── page.tsx
+│   ├── favicon.ico
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+├── assets
+│   ├── cardBackgroundImg
+│   │   ├── pulse-svg.png
+│   │   └── pulse-svg.svg
+│   └── logo
+│       └── wingman-coloured-logo.svg
+├── atom
+│   ├── CCDivider
+│   │   └── index.tsx
+│   ├── CCTabs
+│   │   ├── index.tsx
+│   │   └── types.ts
+│   ├── CCText
+│   │   └── index.tsx
+│   ├── Card
+│   │   └── index.tsx
+│   ├── Loader
+│   │   └── index.tsx
+│   ├── Spacer
+│   │   ├── Spacer.tsx
+│   │   └── index.ts
+│   └── Table
+│       └── index.tsx
+├── components
+│   ├── Chart
+│   │   └── index.tsx
+│   ├── Header
+│   │   └── index.tsx
+│   ├── LeftMenu
+│   │   └── index.tsx
+│   ├── NumberTile
+│   │   ├── helper.tsx
+│   │   └── index.tsx
+│   ├── RouteChangeLoader
+│   │   └── index.tsx
+│   ├── SimpleBarChart
+│   │   └── index.tsx
+│   └── SummaryComponent
+│       ├── components
+│       │   ├── ForcastComponent
+│       │   │   └── index.tsx
+│       │   └── OrdersTable
+│       │       └── index.tsx
+│       ├── helper.ts
+│       └── index.tsx
+├── configs
+│   └── constants.tsx
+└── utils
+    ├── ColorUtils.ts
+    └── Config.tsx
