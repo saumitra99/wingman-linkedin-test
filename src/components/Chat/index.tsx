@@ -2,7 +2,7 @@
 "use client";
 import React, { useState, useRef, useEffect, JSX } from "react";
 
-const Chat = ({ topSpacer }: { topSpacer: JSX.Element }) => {
+const Chat = ({ topSpacer }: { topSpacer?: JSX.Element }) => {
   const [messages, setMessages] = useState([
     { id: 1, sender: "bot", text: "Hello! How can I assist you today?" },
   ]);
