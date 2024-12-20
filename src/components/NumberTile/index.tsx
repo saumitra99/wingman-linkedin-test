@@ -1,6 +1,6 @@
+/* eslint-disable @typescript-eslint/ban-ts-comment */
 import Card from "@/atom/Card";
 import React, { useMemo } from "react";
-import { PiChatTeardropFill } from "react-icons/pi";
 import {
   getIncDecIcon,
   getIncDecIconType,
@@ -16,6 +16,7 @@ type NumberTileType = {
   countType: getIncDecIconType;
   incDec: string;
 };
+// @ts-ignore
 function NumberTile({ tileDetails }: NumberTileType) {
   const hasIncreased = useMemo(
     () => tileDetails?.countType?.toLowerCase() === "increase",

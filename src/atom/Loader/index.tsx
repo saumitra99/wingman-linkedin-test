@@ -9,7 +9,7 @@ interface LoaderProps {
 }
 
 const Loader = (props: LoaderProps) => {
-  const { type = "fullLoader", loaderStyle, loading = false } = props;
+  const { type = "fullLoader", loading = false } = props;
   const isPageloader = type === "pageLoader";
   const isComponentLoader = type === "component";
 
