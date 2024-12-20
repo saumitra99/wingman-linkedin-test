@@ -11,6 +11,8 @@ import {
 } from "react-icons/pi";
 import SummaryComponent from "@/components/SummaryComponent";
 import CCText from "@/atom/CCText";
+import Spacer from "@/atom/Spacer";
+import Chat from "@/components/Chat";
 
 export default function Home() {
   const [selectedTab, setSelectedTab] = useState(1);
@@ -44,9 +46,9 @@ export default function Home() {
       ),
       icon: <PiChatCircleTextFill size={24} color={ColorTheme.disable} />,
       componentRender: (
-        <div className="w-full h-full flex justify-center items-center p-20">
-          <CCText className="text-textColor-grey">No data to show</CCText>
-        </div>
+        <>
+          <Chat topSpacer={<Spacer spacing={60} />} />
+        </>
       ),
     },
   ];
