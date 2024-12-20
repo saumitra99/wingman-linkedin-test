@@ -5,6 +5,7 @@
 
 :root {
   --background: #ffffff;
+  --black: #000000;
   --foreground: #ffffff;
   --font-inter: "Inter", sans-serif;
 }
@@ -12,6 +13,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #ffffff;
+    --black: #000000;
     --foreground: #ffffff;
     --font-inter: "Inter", sans-serif;
   }
@@ -21,4 +23,5 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: var(--font-inter);
+  color: var(--black);
 }

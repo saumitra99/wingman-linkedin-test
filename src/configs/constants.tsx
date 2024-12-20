@@ -69,6 +69,7 @@ export const ordersColumns = [
   {
     header: "Product",
     accessor: "name",
+    sortable: true,
   },
   {
     header: "Date",
@@ -94,11 +95,13 @@ export const ordersColumns = [
   {
     header: "Order Value",
     accessor: "orderValue",
+    sortable: true,
   },
   {
     header: "Commission",
     accessor: "commission",
     className: "text-black font-bold", // Optional column-specific styling
+    sortable: true,
   },
   {
     header: "",
@@ -128,8 +131,43 @@ export const tableData = [
     time: "10:24 AM",
     date: "24 Apr '2024",
     timeSpent: "2h 5m",
-    orderValue: "$120,21",
-    commission: "$55",
+    orderValue: "$1,021",
+    commission: "$25",
   },
-  // Add more rows as needed
+  {
+    image: "/path-to-image.png",
+    name: "Product Name...",
+    time: "8:24 AM",
+    date: "24 Apr '2024",
+    timeSpent: "2h 5m",
+    orderValue: "$120,21",
+    commission: "$5",
+  },
+  {
+    image: "/path-to-image.png",
+    name: "Product Name...",
+    time: "10:24 AM",
+    date: "24 Apr '2024",
+    timeSpent: "2h 5m",
+    orderValue: "$120,21",
+    commission: "$550",
+  },
+  {
+    image: "/path-to-image.png",
+    name: "Product Name...",
+    time: "10:24 AM",
+    date: "24 Apr '2024",
+    timeSpent: "2h 5m",
+    orderValue: "$120,21",
+    commission: "$505",
+  },
+  {
+    image: "/path-to-image.png",
+    name: "Product Name...",
+    time: "10:24 AM",
+    date: "24 Apr '2024",
+    timeSpent: "2h 5m",
+    orderValue: "$120,21",
+    commission: "$255",
+  },
 ];
